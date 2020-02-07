@@ -1,0 +1,5 @@
+credential:
+    - name: host
+      value: host.test.com
+    - name: token
+      value: token-value-goes-here-read-from-secret

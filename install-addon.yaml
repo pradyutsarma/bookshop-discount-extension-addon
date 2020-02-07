@@ -1,0 +1,9 @@
+apiVersion: addons.kyma-project.io/v1alpha1
+kind: ClusterAddonsConfiguration
+metadata:
+  name: addons-bookshop-connector
+  finalizers:
+  - addons.kyma-project.io
+spec:
+  repositories:
+    - url: github.com/pradyutsarma/bookshop-discount-extension-addon//addons/index.yaml
